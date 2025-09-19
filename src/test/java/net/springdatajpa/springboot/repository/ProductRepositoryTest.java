@@ -57,16 +57,16 @@ class ProductRepositoryTest {
     @Test
     void saveAllMethod() {
         Product product2 = new Product();
-        product2.setName("2-Product Test");
-        product2.setDescription("Product Test Description");
+        product2.setName("Product 4");
+        product2.setDescription("Product Test 4 Description");
         product2.setSku("ABC");
         product2.setPrice(new BigDecimal(90));
         product2.setActive(true);
         product2.setImageUrl("p2-test.png");
 
         Product product3 = new Product();
-        product3.setName("3-Product Test");
-        product3.setDescription("3-Product Test Description");
+        product3.setName("Product 5");
+        product3.setDescription("Product 5 Description");
         product3.setSku("ABC");
         product3.setPrice(new BigDecimal(90));
         product3.setActive(true);
